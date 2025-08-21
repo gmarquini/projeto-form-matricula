@@ -1,8 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    max-width: 1920px;
-    max-height: 1080px;
+    box-sizing: border-box;
 }
 
 :root {
@@ -33,10 +32,7 @@
     --blue: #B8CEDC;
     --violet: #C3B2E7;
     --pink: #F682A5;
-
 }
 
 body {
-    display: flex;
-    box-sizing: border-box;
 }
